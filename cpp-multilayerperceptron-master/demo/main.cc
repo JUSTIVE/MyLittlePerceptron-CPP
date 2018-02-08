@@ -2,8 +2,8 @@
 
 #include <windows.h>
 #include <iostream>
-#include <GL/gl.h>
-#include <GL/glut.h>
+#include <gl/gl.h>
+#include <gl/glut.h>
 #include <math.h>
 #include "../MultilayerPerceptron.h"
 
@@ -73,12 +73,11 @@ int main(int argc, char ** argv) {
 
 
 void display(void) {
-
-	iteration++;
-
 	if(training) {
-		float err = mlp->train(0.2f);
+		iteration++;
+		float err = mlp->train(0.3f);
 		createImage(&tex_image);
+		cout.sync_with_stdio(false);
 		cout << "iteration: " << iteration << ", error: " << err << "\n";
 	}
 

@@ -18,12 +18,18 @@
     <ClInclude Include="..\cpp-multilayerperceptron-master\MultilayerPerceptron.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="..\cpp-multilayerperceptron-master\demo\datatypes.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\cpp-multilayerperceptron-master\MultilayerPerceptron.cc">
+    <ClCompile Include="main.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="..\cpp-multilayerperceptron-master\MultilayerPerceptron.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpp-multilayerperceptron-master\demo\main.cc">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

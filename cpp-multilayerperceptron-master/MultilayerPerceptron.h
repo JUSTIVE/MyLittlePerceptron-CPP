@@ -75,7 +75,7 @@ class MultilayerPerceptron {
 			TrainingElement(std::vector<float> in_, std::vector<float> out_) {
 				in = in_;
 				out = out_;
-			}	
+			}
 		};
 
 		

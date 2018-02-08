@@ -1,0 +1,4 @@
+﻿  main.cc
+c:\users\kms\documents\visual studio 2017\projects\mylittleperceptron-cpp\cpp-multilayerperceptron-master\demo\main.cc(93): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  MyLittlePerceptron-CPP.vcxproj -> C:\Users\KMS\Documents\Visual Studio 2017\Projects\MyLittlePerceptron-CPP\Debug\MyLittlePerceptron-CPP.exe
+  MyLittlePerceptron-CPP.vcxproj -> C:\Users\KMS\Documents\Visual Studio 2017\Projects\MyLittlePerceptron-CPP\Debug\MyLittlePerceptron-CPP.pdb (Partial PDB)
