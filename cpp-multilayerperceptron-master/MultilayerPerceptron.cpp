@@ -131,21 +131,31 @@ void MultilayerPerceptron::updateWeights(int h_, float eta_) {
 float MultilayerPerceptron::psi(float x_) {
 	float a = 0.5f;
 	return 1.0f / (1+exp(-a*x_));
+
+	//if (x_ < 0) {//ReLU
+	//	//return 0.01;
+	//}
+	//return x_ + 0.5f;
+	//return sin(x_);
 	/*if (x_ < 0) {
-		return 0.1f*x_;
+		return 0.001f*x_;
 	}
 	return x_;*/
+	//return log(1 + exp(x_));
 }
 
 
 // derivative of the activation function
 float MultilayerPerceptron::dpsidx(float x_) {
 	//return psi(x_) * (1-psi(x_));	
-	return (0.5f*exp(-0.5f*x_)) / powf((exp(-0.5*x_) + 1), 2);
-	//if (x_ < 0) {
-	//	return 0.1f;
+	return (0.5f*exp(-0.5f*x_)) / powf((exp(-0.5*x_) + 1), 2); //modified derivate function
+
+	//if (x_ < 0) {//derivate of ReLU
+	//	return 0.001f;
 	//}
-	//return 1.0f;//1.0f;//
+	//return 1.0f;
+	//return cos(x_);
+	
 }
 
 

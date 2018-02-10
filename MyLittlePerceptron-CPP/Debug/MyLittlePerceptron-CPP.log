@@ -1,4 +1,7 @@
-﻿  main.cc
-c:\users\kms\documents\visual studio 2017\projects\mylittleperceptron-cpp\cpp-multilayerperceptron-master\demo\main.cc(93): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-  MyLittlePerceptron-CPP.vcxproj -> C:\Users\KMS\Documents\Visual Studio 2017\Projects\MyLittlePerceptron-CPP\Debug\MyLittlePerceptron-CPP.exe
-  MyLittlePerceptron-CPP.vcxproj -> C:\Users\KMS\Documents\Visual Studio 2017\Projects\MyLittlePerceptron-CPP\Debug\MyLittlePerceptron-CPP.pdb (Partial PDB)
+﻿  main.cpp
+c:\users\benkim\documents\github\mylittleperceptron-cpp\mylittleperceptron-cpp\main.cpp(32): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+c:\users\benkim\documents\github\mylittleperceptron-cpp\mylittleperceptron-cpp\main.cpp(41): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1193): note: see declaration of 'fscanf'
+c:\users\benkim\documents\github\mylittleperceptron-cpp\mylittleperceptron-cpp\main.cpp(91): warning C4018: '<': signed/unsigned mismatch
+  MyLittlePerceptron-CPP.vcxproj -> C:\Users\BenKim\Documents\GitHub\MyLittlePerceptron-CPP\Debug\MyLittlePerceptron-CPP.exe

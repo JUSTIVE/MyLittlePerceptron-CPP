@@ -47,8 +47,10 @@ int main(int argc, char ** argv) {
 	img = (unsigned char*) malloc(textureWidth * textureHeight * 3 * sizeof(unsigned char));
 
 	mlp = new MultilayerPerceptron(2, 3);
-	mlp->addHiddenLayer(10);
-	mlp->addHiddenLayer(10);
+	mlp->addHiddenLayer(100);
+	mlp->addHiddenLayer(100);
+	
+	
 	mlp->init();
 	mlp->setTrainingSet(trainingSet);
 
